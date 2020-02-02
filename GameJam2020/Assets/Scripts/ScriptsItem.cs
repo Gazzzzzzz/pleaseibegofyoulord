@@ -50,7 +50,7 @@ public class ScriptsItem : MonoBehaviour
             m_ControlAMovement.SetActive(true);
             m_ControlDMovement.SetActive(true);
             m_LineMovement.SetActive(true);
-
+            m_PlayerController.PlayerCanMove();
         }
         else if (other.tag == "HP")
         {
@@ -60,26 +60,31 @@ public class ScriptsItem : MonoBehaviour
         {
             m_LineSprint.SetActive(true);
             m_ControlSprint.SetActive(true);
+            m_PlayerController.PlayerCanSprint();
         }
         else if (other.tag == "Interaction")
         {
             m_LineInteraction.SetActive(true);
             m_ControlInteraction.SetActive(true);
+            m_PlayerController.PlayerCanInteract();
         }
         else if (other.tag == "Jump")
         {
             m_LineJump.SetActive(true);
             m_ControlJump.SetActive(true);
+            m_PlayerController.PlayerCanJump();
         }
         else if (other.tag == "WallGrab")
         {
             m_LineWallGrab.SetActive(true);
             m_ControlWallGrab.SetActive(true);
+            //yen a pas criss d'atteint
         }
         else if (other.tag == "Spawn")
         {
             m_LineSpawn.SetActive(true);
             m_ControlSpawn.SetActive(true);
+            m_PlayerController.PlayerCanMoveObject();
         }
         else if (other.tag == "Checkpoint")
         {
