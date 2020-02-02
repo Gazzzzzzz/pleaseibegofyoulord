@@ -38,6 +38,8 @@ public class ScriptsItem : MonoBehaviour
     private GameObject m_ControlReload;
     [SerializeField]
     private GameObject m_ControlSpawn;
+    [SerializeField]
+    private PlayerController m_PlayerController;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -48,6 +50,7 @@ public class ScriptsItem : MonoBehaviour
             m_ControlAMovement.SetActive(true);
             m_ControlDMovement.SetActive(true);
             m_LineMovement.SetActive(true);
+
         }
         else if (other.tag == "HP")
         {
