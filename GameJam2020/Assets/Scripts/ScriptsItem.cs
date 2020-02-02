@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScriptsItem : MonoBehaviour
 {
+    Vector3 m_SpawnPoint = new Vector3(3f, 0.5f, 2.5f);
     [SerializeField]
     private GameObject m_ControlWMovement;
     [SerializeField]
@@ -38,6 +39,10 @@ public class ScriptsItem : MonoBehaviour
     private GameObject m_ControlReload;
     [SerializeField]
     private GameObject m_ControlSpawn;
+    [SerializeField]
+    private GameObject m_HPBar;
+    [SerializeField]
+    private GameObject m_ScriptPrint;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -52,6 +57,10 @@ public class ScriptsItem : MonoBehaviour
         else if (other.tag == "HP")
         {
             m_LineHP.SetActive(true);
+            m_HPBar.SetActive(true);
+            transform.position = m_SpawnPoint;
+            m_ScriptPrint.SetActive(true);
+
         }
         else if (other.tag == "Sprint")
         {

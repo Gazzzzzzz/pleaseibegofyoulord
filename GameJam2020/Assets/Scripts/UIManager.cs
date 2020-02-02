@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private GameObject m_ControlMenu;
 
-    Vector3 m_FeatureListPosition = new Vector3(1158f, 283f, 0f);
+    Vector3 m_FeatureListPosition = new Vector3(1158f, 407f, 0f);
     Vector3 m_FeatureListStartingPosition = new Vector3();
 
     private bool m_MenuOpen = false;

@@ -3099,6 +3099,8 @@ MonoBehaviour:
   m_Text2: {fileID: 941629309432763593}
   m_Text3: {fileID: 941629308966359352}
   m_FeatureListGiven: {fileID: 941629310524364793}
+  m_HelpBackground: {fileID: 941629308742506111}
+  m_HelpTextTab: {fileID: 3381215921551399153}
 --- !u!1 &941629309274509519
 GameObject:
   m_ObjectHideFlags: 0
@@ -5469,7 +5471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1399, y: 331}
+  m_AnchoredPosition: {x: 1399, y: 407}
   m_SizeDelta: {x: 1571.25, y: 566.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &941629310524364799

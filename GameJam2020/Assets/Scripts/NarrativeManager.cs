@@ -16,6 +16,10 @@ public class NarrativeManager : MonoBehaviour
     private GameObject m_Text3;
     [SerializeField]
     private GameObject m_FeatureListGiven;
+    [SerializeField]
+    private GameObject m_HelpBackground;
+    [SerializeField]
+    private GameObject m_HelpTextTab;
     private void Start()
     {
         m_TextBackground.SetActive(true);
@@ -37,6 +41,8 @@ public class NarrativeManager : MonoBehaviour
         {
             m_Text2.SetActive(false);
             m_Text3.SetActive(true);
+            m_HelpBackground.SetActive(false);
+            m_HelpTextTab.SetActive(false);
             m_EndText = true;
         }
         else if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -44,6 +50,8 @@ public class NarrativeManager : MonoBehaviour
             m_Text1.SetActive(false);
             m_Text2.SetActive(true);
             m_FeatureListGiven.SetActive(true);
+            m_HelpBackground.SetActive(true);
+            m_HelpTextTab.SetActive(true);
             m_ContinueText = true;
         }
     }
