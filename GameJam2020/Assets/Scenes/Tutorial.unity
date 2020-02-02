@@ -2796,10 +2796,73 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 941629308697762130, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308697762132, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_text
+      value: 'Oh, you''re finally here! Nice to meet you, I''m the developper of
+        this game! You must be the new tester! Follow me, I''ll show you around the
+        game before you start. Also, here''s a list of the features you''ll have
+        to test. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308697762132, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308697762132, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308697762132, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308697762132, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308966359353, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_text
+      value: All right! I have good news AND bad news. The good news are that I found
+        the script that can enable the moving mechanic. However, all the other scripts
+        are gone and you obviously can't test my game's mechanics if there are no
+        mechanics! We need to fix this! I'll try to check if I can find those darned
+        scripts while you try to find a way to repair the game from the inside!
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629308986264104, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 941629308986264104, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 941629309058749415, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 941629309263966971, guid: 2288b3d6788872a4cb7ebad9639f3064,
         type: 3}
       propertyPath: m_Name
       value: Main Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629309263966971, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 941629309263966975, guid: 2288b3d6788872a4cb7ebad9639f3064,
         type: 3}
@@ -2905,6 +2968,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629309432763593, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 941629309432763595, guid: 2288b3d6788872a4cb7ebad9639f3064,
+        type: 3}
+      propertyPath: m_text
+      value: Come on, what are you waiting for? What do you mean you can't move!?
+        Hang on, i'll see what I can do...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2288b3d6788872a4cb7ebad9639f3064, type: 3}
@@ -6458,6 +6532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888011312415784279, guid: 3706c9f9e640c804ab021f627e07bcce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5888011312415784285, guid: 3706c9f9e640c804ab021f627e07bcce,
         type: 3}
